@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweets</title>
+    <style>
+    body {
+            background-image: url("sweets_bg.png");
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+         h1 {
+            text-align: center;
+            color: red; 
+            font-size: 50px;
+            text-shadow: 2px 2px 2px #ddd6d6; 
+            font-weight: bold;
+            margin-top: 20px;
+            border: 5px solid black;
+            background-color: black;
+            width: 700px;
+            border-radius:5px ;
+        }
+         #A {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); 
+            gap: 30px;
+            padding: 40px;
+            justify-items: center;
+        }
+         .dish{
+            background-color: black;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            color:crimson;
+            box-shadow: 4px 4px 10px gray;
+            width: 220px;
+            animation-name: slide;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+        .dish img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%; 
+            object-fit: cover;     
+            box-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+            position: center;
+        }
+         @keyframes slide {
+            0% {
+                color:orange; }
+            100% {
+                color: bisque; }
+        }
+        .dish:hover {
+            transform: scale(1.05);
+            transition: 0.3s;
+            box-shadow: 10px 10px 15px rgba(0,0,0,0.8);
+        }
+    </style>
+</head>
+<body>
+    <h1>SWEETS</h1>
+    <div id="A">
+          <div class="dish">
+            <img src="arisa pathi.JPG">
+            <p><b>₹50</b></p>
+            <p><b>Arisa Pitha</b></p>
+        </div>
+        <div class="dish">
+            <img src="https://static.wixstatic.com/media/910b6a_8bccf3d175c44bcc92d29e73a6ebbabc~mv2.jpeg/v1/fill/w_560,h_560,al_c,lg_1,q_80/910b6a_8bccf3d175c44bcc92d29e73a6ebbabc~mv2.jpeg">
+            <p><b>₹120</b></p>
+            <p><b>Bal Mithai</b></p>
+        </div>
+        <div class="dish">
+            <img src="https://aromaticessence.co/wp-content/uploads/2022/10/sweet_boondi_4-1150x1536.jpg">
+            <p><b>₹240</b></p>
+            <p><b>Boondhi</b></p>
+        </div>
+        <div class="dish">
+            <img src="https://img.freepik.com/premium-photo/gajar-halwa-also-known-as-gajorer-halua-gajrela-gajar-pak-carrot-halwa-is-carrot-based-sweet-dessert-pudding-from-indian-subcontinent_466689-75511.jpg?w=996">
+            <p><b>₹350</b></p>
+            <p><b>Gajar Halwa</b></p>
+        </div>
+        <div class="dish">
+            <img src="https://i0.wp.com/www.kabilaifarm.com/wp-content/uploads/2022/09/palkova.png">
+            <p><b>₹300</b></p>
+            <p><b>PalKova</b></p>
+        </div>
+        <div class="dish">
+            <img src="https://www.chennaisweetsnacks.com/assets/images/family-sweets-combo/jangri.webp">
+            <p><b>₹120</b></p>
+            <p><b>Jangri</b></p>
+        </div>
+        <div class="dish">
+            <img src="https://www.orderyourchoice.com/115516-large_default/-mysore-pak-nandini-sweets-trivandrum-.jpg">
+            <p><b>₹299</b></p>
+            <p><b>Mysoor Pak</b></p>
+        </div>
+        <div class="dish">
+            <img src="https://i.pinimg.com/originals/a7/a9/04/a7a904036b27af9b06fd0dbdb9ced7db.jpg">
+            <p><b>₹480</b></p>
+            <p><b>Baklava</b></p>
+        </div>
+    </div>
+</body>
+</html>

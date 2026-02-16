@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image:linear-gradient(to right, rgb(98, 89, 172),rgb(130, 122, 195));
+        }
+.text {
+    position: absolute;
+  top: 10%;
+  left: 32%;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow:10px 10px 20px rgba(0,0,0,0.5) ;
+}
+#A{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+    text-align: center;
+}
+img{
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+    box-shadow:10px 10px 20px rgba(0,0,0,0.5);
+}
+a{
+    text-decoration: none;
+  margin-top: 20px;
+  color: whitesmoke;
+  font-size: 30px;
+  padding: 8px 16px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  display: inline-block;
+  text-shadow:10px 10px 20px rgba(0,0,0,0.5) ;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+a:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+P{
+    margin-top:12%;
+    text-align: center;
+    color: black;
+    font-size: 22PX;
+    font-family: 'Times New Roman', Times, serif;
+    font-style:italic;
+    animation-name: sliding;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes sliding
+{
+    0% {
+        color:black; }
+    50%{
+        color:burlywood;
+    }
+    100% {
+        color: whitesmoke; }
+}
+</style>
+</head>
+<body>
+    <div class="text">NAMOORA  SOBAGU</div>
+    <DIV>
+    <p><b>Welcome to Namooru Sobagu...! Enjoy authentic traditional dishes, delicious desserts, and a memorable dining experience filled with taste, quality, and hospitality.</b></p>
+    </DIV>
+    <div id="A">
+    <div >
+        <img src="veg_home.png" alt="Image 2"><br>
+        <a href="vegmenu.html" target="_blank">VEG MENU</a>
+    </div>
+    <div>
+        <img src="https://img.freepik.com/premium-photo/dum-handi-chicken-biryani-is-prepared-earthen-clay-pot-called-haandi-popular-indian-non-vegetarian-food_466689-52231.jpg?w=2000" alt="Image 2"><br>
+        <a href="Non_veg_menu.html" target="_blank"> NON-VEG MENU</a>
+    </div>
+    <div>
+      <img src="https://png.pngtree.com/background/20230612/original/pngtree-sweets-arranged-on-a-plate-in-the-style-of-indian-dolls-picture-image_3175525.jpg" alt="Image 2"><br>
+        <a href="sweets.html" target="_blank"> DESERTS MENU</a>
+    </div>
+    </div>
+    
+</body>
+</html>

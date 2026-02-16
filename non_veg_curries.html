@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>non-Veg Menu</title>
+    <style>
+       body {
+    background-image:linear-gradient(to right, rgb(230, 180, 140),rgb(255, 218, 185));
+    }
+        h1 {
+            text-align: center;
+            color: red; 
+            font-size: 50px;
+            text-shadow: 2px 2px 2px #ddd6d6; 
+            font-weight: bold;
+            margin-top: 20px;
+            border: 5px solid black;
+            background-color: black;
+            width: 700px;
+            border-radius:5px ;
+        }
+        #A {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); 
+            gap: 30px;
+            padding: 40px;
+            justify-items: center;
+        }
+        .dish{
+            background-color: black;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            color:crimson;
+            box-shadow: 4px 4px 10px gray;
+            width: 220px;
+            animation-name: slide;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+        .dish img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%; 
+            object-fit: cover;     
+            box-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+            position: center;
+        }
+        .dish p {
+            margin: 8px 0;
+            font-size: 18px;
+            animation-name:sliding;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes sliding {
+            0% {
+                color:red; }
+            100% {
+                color: bisque; }
+        }
+        
+        .dish:hover {
+            transform: scale(1.05);
+            transition: 0.3s;
+            box-shadow: 10px 10px 15px rgba(0,0,0,0.8);
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>NON-VEG DISHES</h1>
+    <div id="A">
+          <div class="dish">
+            <img src="https://luv4foodntravel.com/wp-content/uploads/2020/11/DSC00170-1.jpg">
+            <p><b>₹150</b></p>
+            <p><b>Pepper Chicken</b></p>
+        </div>
+        <div class="dish">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVBMjTPaYJ1abc9bf-sECNITd9xDbjf_W04eAdU7AupDoRN1WGA0rUHGRki-i3IsQ29udyU3bMrvHROkP_reyE1jXvH2WpTCjlZdnatKwehWWuFI4rmli0lsYDDsXFDP04F42faQTHGsGHZLyul_JpE20E3CA3ES0ukgHvNfrRwfmOPcGFhRJSxX-Xmbg/s540/360_F_601416673_Tn9dqtXuujNiavuJnNNspgcDezsStYpD.jpg">
+            <p><b>₹120</b></p>
+            <p><b>Butter Chicken</b></p>
+        </div>
+        <div class="dish">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/029/996/351/small_2x/delicious-grilled-chicken-on-white-background-ai-generated-free-photo.jpeg">
+            <p><b>₹340</b></p>
+            <p><b>Grilled Chicken</b></p>
+        </div>
+        <div class="dish">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.a_aRoqWyxpdXZtL75js6JgHaE8?pid=Api&P=0&h=180">
+            <p><b>₹300</b></p>
+            <p><b>Mutton Curry</b></p>
+        </div>
+        <div class="dish">
+            <img src="https://motivation-ratgeber.com/wp-content/uploads/2023/08/92487537.webp">
+            <p><b>₹120</b></p>
+            <p><b>Fish curry</b></p>
+        </div>
+        <div class="dish">
+            <img src="https://images.slurrp.com/prod/recipe_images/transcribe/main%20course/Chettinad-Chicken-Curry.webp">
+            <p><b>₹180</b></p>
+            <p><b>Chetinad chicken</b></p>
+        </div>
+        <div class="dish">
+            <img src="https://images.slurrp.com/prod/recipe_images/transcribe/main%20course/Mutton-Kofta-curry.webp">
+            <p><b>₹280</b></p>
+            <p><b>Mutton kofet</b></p>
+        </div>
+         <div class="dish">
+            <img src="https://i.ytimg.com/vi/3PkemUYSVXc/maxresdefault.jpg">
+            <p><b>₹380</b></p>
+            <p><b>Mutton Nalli</b></p>
+        </div>
+    </div>
+</body>
+</html>
